@@ -21,8 +21,8 @@ header, footer {
     background-color: #3a546d;
 }
 
-.copyright {
-    height: 100px; /*remove me*/
+.bg-sky-fw {
+    background-color: #1abc9c;
 }
 
 /* UTILITIES */
@@ -66,7 +66,7 @@ h2 {
     background-color: transparent;
     border-color: #fff;
     border-radius: 10px;
-    
+
 }
 
 /* HEADER */
@@ -141,35 +141,31 @@ h2 {
 
 .site-form ::placeholder {
     color: black;
-    font-size: 1.2rem;
+    font-
+    size: 1.2rem;
 }
 
-/* BACKGROUNDS */
+/* FOOTER */
 
-.bg-sky-fw {
-    background-color: #1abc9c;
+footer {
+    color: #fff;
 }
 
-.bg-pink {
-    background-color: #ba4b63;
+footer .social-link{
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    border: 1px solid white;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
 }
 
-.bg-sky {
-    background-color: #1ea4b6;
+.copyright {
+    line-height: 100px;
+    text-align: center;
 }
 
-.bg-black {
-    background-color: #140f0f;
-}
-
-.bg-lightblue {
-    background-color: #1c83c1;
-}
-
-.bg-blue {
-    background-color: #0e38b5;
-}
-
-.bg-grey {
-    background-color: #ccb2a3;
-}
