@@ -36,6 +36,10 @@ h1 {
     font-size: 4rem;
 }
 
+h2 {
+    font-size: 3rem;
+}
+
 .star-sep {
     font-size: 2rem;
     line-height: 3rem;
@@ -79,13 +83,20 @@ h1 {
 }
 
 .hero-img img {
-    max-width: 35%;
+    width: 300px;
 }
 
 .hero .subtitle {
     font-size: 2rem;
 }
 
+/* PORTFOLIO SECTION */
+
+
+.site-card img {
+    max-width: 100%;
+    border-radius: 15px;
+}
 
 
 /* BACKGROUNDS */
