@@ -55,6 +55,20 @@ h2 {
     vertical-align: middle;
 }
 
+.site-btn-primary {
+    color: #fff;
+    background-color: #1abc9c;
+    border-radius: 10px;
+}
+
+.site-btn-outline-wht {
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff;
+    border-radius: 10px;
+    
+}
+
 /* HEADER */
 
 .main-header {
@@ -127,6 +141,7 @@ h2 {
 
 .site-form ::placeholder {
     color: black;
+    font-size: 1.2rem;
 }
 
 /* BACKGROUNDS */
