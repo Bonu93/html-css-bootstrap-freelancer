@@ -30,6 +30,21 @@ header, footer {
     height: 100px; /*remove me*/
 }
 
+/* HEADER */
+
+.main-header .site-brand {
+    font-size: 1.5rem;
+}
+.main-header .site-navbar .menu-link{
+    color: white;
+}
+
+.main-header .site-navbar a.menu-link:hover {
+    color: #1abc9c;
+}
+
+
+
 /* BACKGROUNDS */
 
 .bg-sky-fw {
