@@ -15,7 +15,6 @@ header, footer {
 
 .about {
     color: #fff;
-    text-align: center;
 }
 
 .info {
@@ -92,12 +91,43 @@ h2 {
 
 /* PORTFOLIO SECTION */
 
-
 .site-card img {
     max-width: 100%;
     border-radius: 15px;
 }
 
+/* CONTACT SECTION */
+
+.site-form input[type=email],
+.site-form input[type=number],
+.site-form input[type=text],
+.site-form textarea {
+    border: 0;
+    border-bottom: 2px solid #ccc;
+}
+
+.site-form input[type=email]:focus,
+.site-form input[type=number]:focus,
+.site-form input[type=text]:focus,
+.site-form textarea:focus {
+    border-color: black;
+    box-shadow: none;
+}
+
+.site-form input[type=email],
+.site-form input[type=number],
+.site-form input[type=text] {
+    height: 50px;
+    padding: 0;
+}
+
+.site-form textarea {
+    padding: 0;
+}
+
+.site-form ::placeholder {
+    color: black;
+}
 
 /* BACKGROUNDS */
 
