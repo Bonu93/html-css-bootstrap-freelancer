@@ -9,10 +9,6 @@ header, footer {
     background-color: #2c3e50;
 }
 
-.hero {
-    height: 400px; /* remove me */
-}
-
 .portfolio {
     text-align: center;
 }
@@ -30,7 +26,39 @@ header, footer {
     height: 100px; /*remove me*/
 }
 
+/* UTILITIES */
+
+h1, h2 {
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.star-sep {
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.star-sep::before , 
+.star-sep::after {
+    content: "";
+    display: inline-block;
+    width: 150px;
+    padding: 2px;
+    background-color: currentColor;
+    border-radius: 30px;
+    vertical-align: middle;
+}
+
 /* HEADER */
+
+.main-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
 
 .main-header .site-brand {
     font-size: 1.5rem;
@@ -41,6 +69,21 @@ header, footer {
 
 .main-header .site-navbar a.menu-link:hover {
     color: #1abc9c;
+}
+
+/* HERO */
+
+.hero {
+    padding-top: 150px;
+    color: #fff;
+}
+
+.hero-img img {
+    max-width: 35%;
+}
+
+.hero .subtitle {
+    font-size: 2rem;
 }
 
 
